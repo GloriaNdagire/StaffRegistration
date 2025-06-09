@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="logo-container">
+    <img src="~/css/logo.png" class="fade-in-logo" />
+</div>
+
+<div class="content-container fade-in-content">
+    <div class="shadow-box">
+        <h2>In</h2>
+        <div class="button-container">
+            <a asp-controller="Home" asp-action="Entry" class="one">Entry</a>
+        </div>
+    </div>
+
+    <div class="shadow-box">
+        <h2>Out</h2>
+        <div class="button-container">
+            <a asp-controller="Home" asp-action="Exit" class="one">Exit</a>
+        </div>
+    </div>
+</div>
